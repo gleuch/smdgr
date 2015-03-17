@@ -1,0 +1,17 @@
+html,body {padding: 0; margin: 0;}
+html * {font-family: Arial,Helvetica,sans-serif;}
+body {background-color: #3a3a39;}
+#wrapper {position: relative; width: 375px; height: 667px; margin: 0 auto; background-color: #fff;}
+#splash, #container {position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: #fff;}
+#splash {padding: 45% 15px 0; z-index: 1010; transition: opacity .5s ease-out, bottom .5s 0s ease-out;}
+#container {z-index: 1009;}
+#splash.fade {opacity: 0; bottom: 100%; z-index: -1;}
+#splash h1 {text-align: center; font-size: 3.2rem; line-height: 1.0em; color: #1c1c1a;}
+#splash p {text-align: center; font-size: 1.4rem; line-height: 1.0em; color: #1c1c1a;}
+
+
+
+.smudge-card {position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: #fff;}
+.smudge-card.set {}
+.smudge-card.set .container {position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: #fff;}
+.smudge-card.set .smudge-card {position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: #fff;}
